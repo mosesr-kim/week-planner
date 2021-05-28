@@ -4,7 +4,7 @@
 }
 
 body {
-  margin: none;
+  margin: 0;
 }
 
 .container {
@@ -19,7 +19,6 @@ body {
 
 .column-full {
   display: flex;
-  flex-direction: column;
   width: 100%;
 }
 
@@ -34,4 +33,22 @@ body {
 
 .add-entry-button {
   width: 200px;
+  border-radius: 5px;
+  padding: 20px 40px;
+  background-color: #00adb5;
+  border: none;
+  color: #393e46;
+  font-size: 20px;
+}
+
+.modal-overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hidden {
+  display: none;
 }
