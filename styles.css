@@ -129,6 +129,7 @@ button {
 
 table {
   width: 100%;
+  white-space: pre;
 }
 
 tr {
