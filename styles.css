@@ -33,6 +33,11 @@ body {
   justify-content: center;
 }
 
+.justify-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .justify-start {
   display: flex;
   justify-content: flex-start;
@@ -45,6 +50,10 @@ body {
 
 .text-center {
   text-align: center;
+}
+
+.align-center {
+  align-items: center;
 }
 
 .justify-even {
@@ -130,6 +139,7 @@ button {
 table {
   width: 100%;
   white-space: pre;
+  font-size: 20px;
 }
 
 tr {
@@ -143,4 +153,11 @@ tr:nth-child(even) {
 th {
   text-align: left;
   background-color: #00adb5;
+}
+
+.edit-entry-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  margin: 5px 30px;
+  box-shadow: none;
 }

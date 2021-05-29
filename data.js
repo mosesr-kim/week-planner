@@ -1,4 +1,5 @@
 /* exported data */
+/* global generateTableDOM */
 
 var data = {
   nextEntryId: 1,
@@ -24,4 +25,5 @@ function handleUnload(event) {
 
 function handleContentLoad(event) {
   data = JSON.parse(localStorage.getItem('data-entry'));
+  generateTableDOM(data.entries.monday);
 }
